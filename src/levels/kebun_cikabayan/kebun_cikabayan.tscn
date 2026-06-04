@@ -1,21 +1,43 @@
-[gd_scene load_steps=5 format=3 uid="uid://dufmkxsa1sec8"]
+[gd_scene format=3 uid="uid://dufmkxsa1sec8"]
 
-[ext_resource type="Texture2D" path="res://assets/tilesets/tileset.png" id="1_tex"]
+[ext_resource type="Texture2D" uid="uid://bfrhoxnt4hugl" path="res://assets/tilesets/tiles.png" id="1_fjgbt"]
+[ext_resource type="Texture2D" uid="uid://dgjvvut28oqbp" path="res://assets/sprites/environment/Assets/image 1 (1).png" id="2_hmsmi"]
 [ext_resource type="PackedScene" uid="uid://digqoud75yf32" path="res://src/entities/player/irving.tscn" id="2_irving"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_123"]
-texture = ExtResource("1_tex")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wdtgj"]
+texture = ExtResource("1_fjgbt")
 texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_456"]
 tile_size = Vector2i(32, 32)
-sources/0 = SubResource("TileSetAtlasSource_123")
+sources/1 = SubResource("TileSetAtlasSource_wdtgj")
 
 [node name="KebunCikabayan" type="Node2D" unique_id=381536826]
 
-[node name="TileMapLayer" type="TileMapLayer" parent="."]
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1989887380]
 texture_filter = 1
 tile_set = SubResource("TileSet_456")
 
-[node name="Irving" parent="." instance=ExtResource("2_irving")]
-position = Vector2(640, 360)
+[node name="Image1(1)" type="Sprite2D" parent="." unique_id=580068607]
+position = Vector2(670, 395.49997)
+scale = Vector2(2.2860963, 2.4841774)
+texture = ExtResource("2_hmsmi")
+
+[node name="Irving" parent="." unique_id=1239034980 instance=ExtResource("2_irving")]
+position = Vector2(991, 480)
+scale = Vector2(0.195, 0.195)

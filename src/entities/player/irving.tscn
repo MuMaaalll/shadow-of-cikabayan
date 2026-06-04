@@ -102,7 +102,3 @@ frame_progress = 0.35168627
 [node name="FlashlightPivot" type="Node2D" parent="." unique_id=1997023949]
 
 [node name="InteractRay" type="RayCast2D" parent="." unique_id=1384991361]
-
-[node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(2, 2)
-

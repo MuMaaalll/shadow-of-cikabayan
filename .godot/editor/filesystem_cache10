@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1780553689
+::res://::1780553820
 README.md::TextFile::-1::1780026779::0::1::::<><><>0<>0<><>::
 ::res://assets/::1780514930
 ::res://assets/fonts/::1780026435
@@ -8,7 +8,8 @@ README.md::TextFile::-1::1780026779::0::1::::<><><>0<>0<><>::
 ::res://assets/sprites/::1780514930
 ::res://assets/sprites/enemies/::1780514930
 ::res://assets/sprites/environment/::1780549303
-::res://assets/sprites/environment/Assets/::1780550847
+::res://assets/sprites/environment/Assets/::1780555816
+image 1 (1).png::CompressedTexture2D::7600288152303845137::1780555802::1780555820::1::::<><><>0<>0<>9aa5f6402e4ae9cea675643ace5caf17<>res://.godot/imported/image 1 (1).png-8d82d84f22b783c9d813d6300443eb21.ctex::
 ::res://assets/sprites/environment/Assets/DarkForest/::1780551600
 back.png::CompressedTexture2D::7567217233782196298::1780549323::1780551600::1::::<><><>0<>0<>791a0b62e078b12cab9d3375b346e00c<>res://.godot/imported/back.png-a1673684f489433c53df14bfd2ef493f.ctex::
 far.png::CompressedTexture2D::2989086096774196732::1780549313::1780551600::1::::<><><>0<>0<>5e01e9e03cfe07ed5b6c8b72468f44b1<>res://.godot/imported/far.png-2d3d64c3858ae58cb9c9af2d71e2e9a4.ctex::
@@ -66,13 +67,13 @@ enemies.gd::GDScript::902019180188120399::1780026970::0::1::::<>RefCounted<><>0<
 players.gd::GDScript::5697600864493776969::1780026963::0::1::::<>RefCounted<><>0<>0<><>::
 ::res://src/entities/enemies/::1780514930
 ::res://src/entities/player/::1780553285
-irving.tscn::PackedScene::7734156596303242695::1780553459::0::1::::<><><>0<>0<><>::uid://cgy4is1ro0wmr::::res://assets/sprites/player/irving_sheet1.png<>uid://dpcm6q1qxgwed::::res://assets/sprites/player/irving_sheet17.png
+irving.tscn::PackedScene::7734156596303242695::1780555610::0::1::::<><><>0<>0<><>::uid://cgy4is1ro0wmr::::res://assets/sprites/player/irving_sheet1.png<>uid://dpcm6q1qxgwed::::res://assets/sprites/player/irving_sheet17.png
 player.gd::GDScript::1255474183216063471::1780552243::0::1::::<>CharacterBody2D<><>0<>0<><>::
 ::res://src/levels/::1780514930
 hutan_cikabayan.gd::GDScript::8129602673978486597::1780027076::0::1::::<>RefCounted<><>0<>0<><>::
 laboratorium.gd::GDScript::1735425925573079973::1780027084::0::1::::<>RefCounted<><>0<>0<><>::
 ::res://src/levels/kebun_cikabayan/::1780553373
-kebun_cikabayan.tscn::PackedScene::8574108510341485989::1780553670::0::1::::<><><>0<>0<><>::uid://digqoud75yf32::::res://src/entities/player/irving.tscn
+kebun_cikabayan.tscn::PackedScene::8574108510341485989::1780553878::0::1::::<><><>0<>0<><>::uid://digqoud75yf32::::res://src/entities/player/irving.tscn
 ::res://src/levels/laboratorium/::1780514930
 ::res://src/ui/::1780029602
 HUD.gd::GDScript::8266289820423515066::1780027050::0::1::::<>RefCounted<><>0<>0<><>::
