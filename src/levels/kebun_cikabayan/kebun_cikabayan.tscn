@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://dufmkxsa1sec8"]
+
+[ext_resource type="Texture2D" path="res://assets/tilesets/tileset.png" id="1_tex"]
+[ext_resource type="PackedScene" uid="uid://digqoud75yf32" path="res://src/entities/player/irving.tscn" id="2_irving"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_123"]
+texture = ExtResource("1_tex")
+texture_region_size = Vector2i(32, 32)
+
+[sub_resource type="TileSet" id="TileSet_456"]
+tile_size = Vector2i(32, 32)
+sources/0 = SubResource("TileSetAtlasSource_123")
+
+[node name="KebunCikabayan" type="Node2D" unique_id=381536826]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+texture_filter = 1
+tile_set = SubResource("TileSet_456")
+
+[node name="Irving" parent="." instance=ExtResource("2_irving")]
+position = Vector2(640, 360)

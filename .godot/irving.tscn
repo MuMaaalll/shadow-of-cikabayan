@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://beev1ertlicbu"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mtpoh"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_l8kvy"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"walk_left",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"walk_right",
+"speed": 5.0
+}]
+
+[node name="Irving" type="CharacterBody2D" unique_id=1787195843]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1629869538]
+scale = Vector2(16, 20)
+shape = SubResource("CapsuleShape2D_mtpoh")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1061448297]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_l8kvy")
+animation = &"jump"
+
+[node name="FlashlightPivot" type="Node2D" parent="." unique_id=864232996]
+
+[node name="InteractRay" type="RayCast2D" parent="." unique_id=204507219]

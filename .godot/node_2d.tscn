@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://bamx8gv7ycx3l"]
+
+[ext_resource type="Texture2D" path="res://assets/sprites/environment/Assets/Assets/Layers/back.png" id="1_epypp"]
+[ext_resource type="Texture2D" path="res://assets/sprites/environment/Assets/Assets/Layers/middle.png" id="2_0hol4"]
+[ext_resource type="Texture2D" path="res://assets/sprites/player/irving_sheet1.png" id="3_q6r6c"]
+
+[node name="Node2D" type="Node2D" unique_id=1185967924]
+
+[node name="Back" type="Sprite2D" parent="." unique_id=2048540182]
+position = Vector2(79, 136)
+texture = ExtResource("1_epypp")
+
+[node name="Back2" type="Sprite2D" parent="." unique_id=1867135657]
+position = Vector2(239, 136)
+texture = ExtResource("1_epypp")
+
+[node name="Back3" type="Sprite2D" parent="." unique_id=1027635898]
+position = Vector2(399, 136)
+texture = ExtResource("1_epypp")
+
+[node name="Back4" type="Sprite2D" parent="." unique_id=1710540762]
+position = Vector2(559, 136)
+texture = ExtResource("1_epypp")
+
+[node name="Back5" type="Sprite2D" parent="." unique_id=2132914254]
+position = Vector2(719, 136)
+texture = ExtResource("1_epypp")
+
+[node name="Middle" type="Sprite2D" parent="." unique_id=323398153]
+position = Vector2(192, 136)
+texture = ExtResource("2_0hol4")
+
+[node name="Middle2" type="Sprite2D" parent="." unique_id=966515677]
+position = Vector2(591, 136)
+scale = Vector2(1.078125, 1)
+texture = ExtResource("2_0hol4")
+
+[node name="IrvingSheet1" type="Sprite2D" parent="." unique_id=496682555]
+position = Vector2(293, 223)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("3_q6r6c")

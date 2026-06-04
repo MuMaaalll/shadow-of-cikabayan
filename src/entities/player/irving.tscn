@@ -1,0 +1,108 @@
+[gd_scene format=3 uid="uid://digqoud75yf32"]
+
+[ext_resource type="Texture2D" uid="uid://cgy4is1ro0wmr" path="res://assets/sprites/player/irving_sheet1.png" id="1_himmi"]
+[ext_resource type="Script" uid="uid://r5fqgxjbobal" path="res://src/entities/player/player.gd" id="1_script"]
+[ext_resource type="Texture2D" uid="uid://dpcm6q1qxgwed" path="res://assets/sprites/player/irving_sheet17.png" id="2_fpuux"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_q52ci"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p6y8q"]
+atlas = ExtResource("1_himmi")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sqjkj"]
+atlas = ExtResource("2_fpuux")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7p01a"]
+atlas = ExtResource("2_fpuux")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3o2eo"]
+atlas = ExtResource("1_himmi")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8fspk"]
+atlas = ExtResource("1_himmi")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p4sxm"]
+atlas = ExtResource("2_fpuux")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wj2ov"]
+atlas = ExtResource("2_fpuux")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_alaes"]
+atlas = ExtResource("1_himmi")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tfbtv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p6y8q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sqjkj")
+}],
+"loop": true,
+"name": &"Walk_Right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 10.0,
+"texture": SubResource("AtlasTexture_7p01a")
+}, {
+"duration": 5.0,
+"texture": SubResource("AtlasTexture_3o2eo")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 10.0,
+"texture": SubResource("AtlasTexture_8fspk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p4sxm")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wj2ov")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_alaes")
+}],
+"loop": true,
+"name": &"walk_left",
+"speed": 5.0
+}]
+
+[node name="Irving" type="CharacterBody2D" unique_id=1846319886]
+position = Vector2(570, 321)
+script = ExtResource("1_script")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1396799069]
+scale = Vector2(16, 20)
+shape = SubResource("CapsuleShape2D_q52ci")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=568445816]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_tfbtv")
+animation = &"idle"
+frame_progress = 0.35168627
+
+[node name="FlashlightPivot" type="Node2D" parent="." unique_id=1997023949]
+
+[node name="InteractRay" type="RayCast2D" parent="." unique_id=1384991361]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2, 2)
+
