@@ -15,19 +15,15 @@ bg_color = Color(0, 0, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_t2t26"]
 
-[node name="Battle" type="Control" unique_id=1761323294]
-layout_mode = 3
-anchors_preset = 0
+[node name="Battle" type="Node2D" unique_id=701382673]
 script = ExtResource("1_t2t26")
 
 [node name="Background" type="TextureRect" parent="." unique_id=1973915900]
-layout_mode = 0
 offset_right = 1282.0
 offset_bottom = 738.0
 texture = ExtResource("1_vyhjb")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1700552700]
-layout_mode = 0
 offset_left = 833.0
 offset_top = 11.0
 offset_right = 1251.0
@@ -63,7 +59,6 @@ metadata/_aseprite_wizard_interface_config_ = {
 }
 
 [node name="Irving" type="TextureRect" parent="." unique_id=1774789765]
-layout_mode = 0
 offset_left = -25.0
 offset_top = 383.0
 offset_right = 309.0
@@ -81,14 +76,13 @@ offset_right = 300.0
 offset_bottom = -6.0
 value = 50.0
 
-[node name="ActionsPanel" type="Panel" parent="." unique_id=754117386]
-layout_mode = 0
+[node name="PlayerPanel" type="Panel" parent="." unique_id=754117386]
 offset_left = 2.0
 offset_top = 557.0
 offset_right = 1288.0
 offset_bottom = 741.0
 
-[node name="Actions" type="HBoxContainer" parent="ActionsPanel" unique_id=2045906732]
+[node name="HBoxContainer" type="HBoxContainer" parent="PlayerPanel" unique_id=2045906732]
 layout_mode = 0
 offset_left = -3.0000002
 offset_top = 5.9999995
@@ -96,21 +90,21 @@ offset_right = 193.0
 offset_bottom = 46.0
 scale = Vector2(2.2479262, 2.1209078)
 
-[node name="Attack" type="Button" parent="ActionsPanel/Actions" unique_id=845286197]
+[node name="Attack" type="Button" parent="PlayerPanel/HBoxContainer" unique_id=845286197]
 layout_mode = 2
 theme = SubResource("Theme_kgcku")
 theme_override_fonts/font = ExtResource("5_f6e8d")
 action_mode = 0
 text = "ATTACK"
 
-[node name="Defend" type="Button" parent="ActionsPanel/Actions" unique_id=2027272179]
+[node name="Defend" type="Button" parent="PlayerPanel/HBoxContainer" unique_id=2027272179]
 layout_mode = 2
 theme = SubResource("Theme_kgcku")
 theme_override_fonts/font = ExtResource("5_f6e8d")
 action_mode = 0
 text = "DEFEND"
 
-[node name="Run" type="Button" parent="ActionsPanel/Actions" unique_id=1847810465]
+[node name="Run" type="Button" parent="PlayerPanel/HBoxContainer" unique_id=1847810465]
 layout_mode = 2
 theme = SubResource("Theme_kgcku")
 theme_override_fonts/font = ExtResource("5_f6e8d")
@@ -120,7 +114,6 @@ text = "RUN
 
 [node name="textbox" type="Panel" parent="." unique_id=157547265]
 self_modulate = Color(0.012617188, 0.012617188, 0.012617188, 1)
-layout_mode = 0
 offset_left = 2.0
 offset_top = 559.0
 offset_right = 1290.0
@@ -128,9 +121,9 @@ offset_bottom = 736.0
 
 [node name="Label" type="Label" parent="textbox" unique_id=34935453]
 layout_mode = 0
-offset_left = -4.0
+offset_left = 1.0
 offset_top = -2.0
-offset_right = 1279.0
+offset_right = 1284.0
 offset_bottom = 174.0
 theme = SubResource("Theme_fuara")
 theme_override_fonts/font = ExtResource("5_f6e8d")
@@ -141,4 +134,4 @@ label_settings = SubResource("LabelSettings_t2t26")
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[connection signal="pressed" from="ActionsPanel/Actions/Run" to="." method="_on_run_pressed"]
+[connection signal="pressed" from="PlayerPanel/HBoxContainer/Run" to="." method="_on_run_pressed"]

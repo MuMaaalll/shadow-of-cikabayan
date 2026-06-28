@@ -1,5 +1,5 @@
 bd8b7a4084b1d03d7506a69e643bafa0
-::res://::1782656025
+::res://::1782660075
 aseprite_animation.gd::GDScript::444220074125214177::1782647693::0::1::::AsepriteAnimation<>Resource<><>0<>0<><>::
 aseprite_document.gd::GDScript::8316247730771105024::1782647693::0::1::::AsepriteDocument<>Resource<><>0<>0<><>::
 aseprite_document_loader.gd::GDScript::4696907606485775061::1782647693::0::1::::AsepriteDocumentLoader<>ResourceFormatLoader<><>0<>0<><>::
@@ -646,7 +646,9 @@ TASK_IRFAN.md::TextFile::-1::1782645707::0::1::::<><><>0<>0<><>::
 TASK_MELANDRI.md::TextFile::-1::1782645707::0::1::::<><><>0<>0<><>::
 ::res://parser/::1782647700
 aseprite_parser.gd::GDScript::570627080999963011::1782647693::0::1::::AsepriteParser<>RefCounted<><>0<>0<><>::
-::res://src/::1782655859
+::res://src/::1782658342
+license.txt::TextFile::-1::1717303094::0::1::::<><><>0<>0<><>::
+nintendo-nes-font.ttf::FontFile::2533365621525376199::1717303094::1782658342::1::::<><><>0<>0<>aa4d6840224bac11369b4630664acd6d<>res://.godot/imported/nintendo-nes-font.ttf-df96517cca71d30ff2db344450ce223b.fontdata::
 ::res://src/combat/::1782645839
 combat_arena.tscn::PackedScene::-1::1782645707::0::1::::<><><>0<>0<><>::
 combat_manager.gd::GDScript::3406525742403092025::1782645707::0::1::::<>RefCounted<><>0<>0<><>::
@@ -669,8 +671,9 @@ luminous_dragon.png::CompressedTexture2D::4636483088156671918::1782649419::17826
 moonshadow_dragon.png::CompressedTexture2D::1371029337046988901::1782649419::1782649420::1::::<><><>0<>0<>43a7f1b6535cd3f5cee9e5a4937c7846<>res://.godot/imported/moonshadow_dragon.png-d71e26b9f4639232ffae0e02c33c5d90.ctex::
 thunderwing_drake_nosparks.png::CompressedTexture2D::5104263296966534576::1782649419::1782649420::1::::<><><>0<>0<>5cd345a232d32efb8bc575d38e846994<>res://.godot/imported/thunderwing_drake_nosparks.png-3a66178de6c57ecf338cff2eeb4633d1.ctex::
 thunderwing_drake_sparks.png::CompressedTexture2D::8564210063041859056::1782649419::1782649420::1::::<><><>0<>0<>cecc29cdc89618ca28b4b94645ce8678<>res://.godot/imported/thunderwing_drake_sparks.png-59a5fff042ed1164984804621dfc25a6.ctex::
-::res://src/levels/::1782655973
-battle.tscn::PackedScene::260947886140916064::1782655973::0::1::::<><><>0<>0<><>::uid://disbvc41wbm8e::::res://assets/Pixel Crawler - Free Pack/MockUps/8c32c986-003c-49b9-8e52-d7cb119d9382_scaled.jpg<>uid://b7b7g1d8oxrhe::::res://src/entities/Test/luminous_dragon.png<>uid://b46roi4d7dp4c::::res://assets/sprites/player/irving_sheet.png
+::res://src/levels/::1782657670
+battle.gd::GDScript::6136495522558207427::1782657598::0::1::::<>Control<><>0<>0<><>::
+battle.tscn::PackedScene::260947886140916064::1782657670::0::1::::<><><>0<>0<><>::uid://ctotgjrtxsp4n::::res://src/levels/battle.gd<>uid://disbvc41wbm8e::::res://assets/Pixel Crawler - Free Pack/MockUps/8c32c986-003c-49b9-8e52-d7cb119d9382_scaled.jpg<>uid://b7b7g1d8oxrhe::::res://src/entities/Test/luminous_dragon.png<>uid://b46roi4d7dp4c::::res://assets/sprites/player/irving_sheet.png
 hutan_cikabayan.gd::GDScript::8129602673978486597::1782645707::0::1::::<>RefCounted<><>0<>0<><>::
 laboratorium.gd::GDScript::1735425925573079973::1782645707::0::1::::<>RefCounted<><>0<>0<><>::
 ::res://src/levels/kebun_cikabayan/::1782655872
