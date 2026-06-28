@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://bvycxjysqaoqc"
+path="res://.godot/imported/Collect_Up.aseprite-d6cca70ed0393d3a0fe6fe263ed0a589.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Collect_Base/Collect_Up.aseprite"
+dest_files=["res://.godot/imported/Collect_Up.aseprite-d6cca70ed0393d3a0fe6fe263ed0a589.res"]
+
+[params]
+

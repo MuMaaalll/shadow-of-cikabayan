@@ -1,7 +1,14 @@
+Label
+Panel
+TextureRect
+HBoxContainer
+AnimationPlayer
+Button
+ProgressBar
+VBoxContainer
 TileMapLayer
 Camera2D
 RayCast2D
 Node2D
 AnimatedSprite2D
 CollisionShape2D
-CharacterBody2D

@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://dtq7plo21el3q"
+path="res://.godot/imported/Death_Up.aseprite-cee5953eee8503f291d5ba22ae1ffd61.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Death_Base/Death_Up.aseprite"
+dest_files=["res://.godot/imported/Death_Up.aseprite-cee5953eee8503f291d5ba22ae1ffd61.res"]
+
+[params]
+

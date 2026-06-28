@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://6i4mgqobw1f7"
+path="res://.godot/imported/Pierce_Top.aseprite-53126cf9f575bfeafc6467bfaa1979ce.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Pierce_Base/Pierce_Top.aseprite"
+dest_files=["res://.godot/imported/Pierce_Top.aseprite-53126cf9f575bfeafc6467bfaa1979ce.res"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://c7w0uarinsvpc"
+path="res://.godot/imported/Death_Side.aseprite-df6dc27641a10e82711f96deb6b01429.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Death_Base/Death_Side.aseprite"
+dest_files=["res://.godot/imported/Death_Side.aseprite-df6dc27641a10e82711f96deb6b01429.res"]
+
+[params]
+

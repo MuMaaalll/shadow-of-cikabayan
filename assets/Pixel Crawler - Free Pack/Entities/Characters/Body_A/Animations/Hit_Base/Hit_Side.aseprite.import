@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://dfadge7588wmt"
+path="res://.godot/imported/Hit_Side.aseprite-4550e852f8a7fe264df2e059dc0859e7.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Hit_Base/Hit_Side.aseprite"
+dest_files=["res://.godot/imported/Hit_Side.aseprite-4550e852f8a7fe264df2e059dc0859e7.res"]
+
+[params]
+

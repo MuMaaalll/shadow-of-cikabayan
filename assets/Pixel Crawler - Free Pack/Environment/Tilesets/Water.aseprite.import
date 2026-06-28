@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://cvrdyhly6fj2t"
+path="res://.godot/imported/Water.aseprite-a913e88075add26048e0a2701c9b1bd0.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Environment/Tilesets/Water.aseprite"
+dest_files=["res://.godot/imported/Water.aseprite-a913e88075add26048e0a2701c9b1bd0.res"]
+
+[params]
+

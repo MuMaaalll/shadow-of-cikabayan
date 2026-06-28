@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://dutj8mm1hnx8m"
+path="res://.godot/imported/Hit_Down.aseprite-7c38fd5b86bfa255c52b8602edffcea3.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Hit_Base/Hit_Down.aseprite"
+dest_files=["res://.godot/imported/Hit_Down.aseprite-7c38fd5b86bfa255c52b8602edffcea3.res"]
+
+[params]
+

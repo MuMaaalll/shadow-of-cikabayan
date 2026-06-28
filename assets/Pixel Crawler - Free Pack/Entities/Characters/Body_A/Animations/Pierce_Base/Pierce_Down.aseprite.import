@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://bjcik88supam5"
+path="res://.godot/imported/Pierce_Down.aseprite-76394b515215cda66ead03192122ad46.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Pierce_Base/Pierce_Down.aseprite"
+dest_files=["res://.godot/imported/Pierce_Down.aseprite-76394b515215cda66ead03192122ad46.res"]
+
+[params]
+

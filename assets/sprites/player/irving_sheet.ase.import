@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://3u5njf3h56rx"
+path="res://.godot/imported/irving_sheet.ase-892082aa2a96bc9149eabc0fcc95f5d1.res"
+
+[deps]
+
+source_file="res://assets/sprites/player/irving_sheet.ase"
+dest_files=["res://.godot/imported/irving_sheet.ase-892082aa2a96bc9149eabc0fcc95f5d1.res"]
+
+[params]
+

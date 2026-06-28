@@ -34,10 +34,16 @@ texture_filter = 1
 tile_set = SubResource("TileSet_456")
 
 [node name="Image1(1)" type="Sprite2D" parent="." unique_id=580068607]
-position = Vector2(670, 395.49997)
+position = Vector2(644.99994, 386.99994)
 scale = Vector2(2.2860963, 2.4841774)
 texture = ExtResource("2_hmsmi")
 
 [node name="Irving" parent="." unique_id=1239034980 instance=ExtResource("2_irving")]
-position = Vector2(991, 480)
+position = Vector2(888, 486)
 scale = Vector2(0.195, 0.195)
+
+[node name="AnimationPlayer2" type="AnimationPlayer" parent="Irving" unique_id=1528184487]
+
+[node name="BeachTile" type="Sprite2D" parent="." unique_id=788306535]
+position = Vector2(205.00012, 870)
+scale = Vector2(4.8125005, 3.7708333)

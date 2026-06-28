@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://br3mn2rlj8dbo"
+path="res://.godot/imported/Crush_Up.aseprite-c6b11f1f57121e3e0dad8892e4721aaf.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Crush_Base/Crush_Up.aseprite"
+dest_files=["res://.godot/imported/Crush_Up.aseprite-c6b11f1f57121e3e0dad8892e4721aaf.res"]
+
+[params]
+

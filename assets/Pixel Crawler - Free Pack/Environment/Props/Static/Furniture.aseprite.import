@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://i3sxpok4pw6x"
+path="res://.godot/imported/Furniture.aseprite-141c24ec8c3aa9c5020ddd09c82ce9ca.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Environment/Props/Static/Furniture.aseprite"
+dest_files=["res://.godot/imported/Furniture.aseprite-141c24ec8c3aa9c5020ddd09c82ce9ca.res"]
+
+[params]
+

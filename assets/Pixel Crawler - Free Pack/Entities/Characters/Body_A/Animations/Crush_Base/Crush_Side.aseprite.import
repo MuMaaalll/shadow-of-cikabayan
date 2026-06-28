@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://dp1q4766gxd6e"
+path="res://.godot/imported/Crush_Side.aseprite-f831f52a0b22303fe7b7f819a733da51.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Crush_Base/Crush_Side.aseprite"
+dest_files=["res://.godot/imported/Crush_Side.aseprite-f831f52a0b22303fe7b7f819a733da51.res"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://b8kp55xguqnxl"
+path="res://.godot/imported/Walk_Side.aseprite-94483898318cc63bb92c3efec617420c.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Npc's/Citizen_F/Tavern_A/Walk/Walk_Side.aseprite"
+dest_files=["res://.godot/imported/Walk_Side.aseprite-94483898318cc63bb92c3efec617420c.res"]
+
+[params]
+

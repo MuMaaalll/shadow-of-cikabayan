@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://ccvg6aao83j60"
+path="res://.godot/imported/Pierce_Side.aseprite-0caed93bed774af568db61fecdbef71b.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Pierce_Base/Pierce_Side.aseprite"
+dest_files=["res://.godot/imported/Pierce_Side.aseprite-0caed93bed774af568db61fecdbef71b.res"]
+
+[params]
+

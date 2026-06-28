@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://cql2mf8cmomqy"
+path="res://.godot/imported/Carry_Walk_Up.aseprite-ce1b616c12f6a50044fb629b8be3b8ad.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Carry_Walk/Carry_Walk_Up.aseprite"
+dest_files=["res://.godot/imported/Carry_Walk_Up.aseprite-ce1b616c12f6a50044fb629b8be3b8ad.res"]
+
+[params]
+

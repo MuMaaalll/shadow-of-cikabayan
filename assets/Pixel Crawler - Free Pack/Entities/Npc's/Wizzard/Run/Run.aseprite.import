@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://1ybjj1g4xl72"
+path="res://.godot/imported/Run.aseprite-0a24cfd28d7775c1d49ed8d612d18d95.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Npc's/Wizzard/Run/Run.aseprite"
+dest_files=["res://.godot/imported/Run.aseprite-0a24cfd28d7775c1d49ed8d612d18d95.res"]
+
+[params]
+

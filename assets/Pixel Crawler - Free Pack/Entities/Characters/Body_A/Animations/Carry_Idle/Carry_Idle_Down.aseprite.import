@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://dyhsfgxo3e86a"
+path="res://.godot/imported/Carry_Idle_Down.aseprite-b7a3f2099c4e43e9945122fbb882dd2b.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Carry_Idle/Carry_Idle_Down.aseprite"
+dest_files=["res://.godot/imported/Carry_Idle_Down.aseprite-b7a3f2099c4e43e9945122fbb882dd2b.res"]
+
+[params]
+

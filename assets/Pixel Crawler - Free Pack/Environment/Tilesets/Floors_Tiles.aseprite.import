@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://dgpod1klubsr7"
+path="res://.godot/imported/Floors_Tiles.aseprite-e1c8cd648b8c7b6f6fc0a7da132cbd41.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Environment/Tilesets/Floors_Tiles.aseprite"
+dest_files=["res://.godot/imported/Floors_Tiles.aseprite-e1c8cd648b8c7b6f6fc0a7da132cbd41.res"]
+
+[params]
+

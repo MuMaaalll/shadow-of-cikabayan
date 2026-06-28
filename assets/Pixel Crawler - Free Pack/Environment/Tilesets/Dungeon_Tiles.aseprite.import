@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://c25oh3j1t1uca"
+path="res://.godot/imported/Dungeon_Tiles.aseprite-5f76066a9720a093e9cea3fb53e9e980.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Environment/Tilesets/Dungeon_Tiles.aseprite"
+dest_files=["res://.godot/imported/Dungeon_Tiles.aseprite-5f76066a9720a093e9cea3fb53e9e980.res"]
+
+[params]
+

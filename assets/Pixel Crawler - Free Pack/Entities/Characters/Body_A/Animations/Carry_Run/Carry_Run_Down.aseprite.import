@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://0o4wpe7h0ky7"
+path="res://.godot/imported/Carry_Run_Down.aseprite-12f30d22e4df9d025122743bddc8d913.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Carry_Run/Carry_Run_Down.aseprite"
+dest_files=["res://.godot/imported/Carry_Run_Down.aseprite-12f30d22e4df9d025122743bddc8d913.res"]
+
+[params]
+

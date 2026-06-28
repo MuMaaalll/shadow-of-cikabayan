@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://bkpovhukuxs0o"
+path="res://.godot/imported/Walk_Side.aseprite-b69b548886740aae407da46a7f2bd05a.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Walk_Base/Walk_Side.aseprite"
+dest_files=["res://.godot/imported/Walk_Side.aseprite-b69b548886740aae407da46a7f2bd05a.res"]
+
+[params]
+

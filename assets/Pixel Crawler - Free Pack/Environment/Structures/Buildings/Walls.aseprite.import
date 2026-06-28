@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://dv1q1frpad7ix"
+path="res://.godot/imported/Walls.aseprite-0b0d488c528e1a1d7eabdea228a1b7fa.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Environment/Structures/Buildings/Walls.aseprite"
+dest_files=["res://.godot/imported/Walls.aseprite-0b0d488c528e1a1d7eabdea228a1b7fa.res"]
+
+[params]
+

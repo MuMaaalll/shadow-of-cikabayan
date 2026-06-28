@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://c6pf1neqj5b40"
+path="res://.godot/imported/Watering_Side.aseprite-6b7153d21baa45bdf002377310ec6a16.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Watering_Base/Watering_Side.aseprite"
+dest_files=["res://.godot/imported/Watering_Side.aseprite-6b7153d21baa45bdf002377310ec6a16.res"]
+
+[params]
+

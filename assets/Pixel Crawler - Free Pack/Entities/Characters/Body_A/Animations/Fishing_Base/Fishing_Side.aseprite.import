@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://d0h13fknsy7l1"
+path="res://.godot/imported/Fishing_Side.aseprite-7fc9263f106aa04b29981332095b3ad4.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Fishing_Base/Fishing_Side.aseprite"
+dest_files=["res://.godot/imported/Fishing_Side.aseprite-7fc9263f106aa04b29981332095b3ad4.res"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://b1ackxm0t0s7c"
+path="res://.godot/imported/Watering_Down.aseprite-d0654b8e003faa606ab620a6a21aa3bb.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Watering_Base/Watering_Down.aseprite"
+dest_files=["res://.godot/imported/Watering_Down.aseprite-d0654b8e003faa606ab620a6a21aa3bb.res"]
+
+[params]
+

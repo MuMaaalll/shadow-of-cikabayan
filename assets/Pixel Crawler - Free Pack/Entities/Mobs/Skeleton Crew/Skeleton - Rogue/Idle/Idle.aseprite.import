@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://b1qv8eb8tc34g"
+path="res://.godot/imported/Idle.aseprite-1b7b77726fd8a0c37c1cc1b2f850621b.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Mobs/Skeleton Crew/Skeleton - Rogue/Idle/Idle.aseprite"
+dest_files=["res://.godot/imported/Idle.aseprite-1b7b77726fd8a0c37c1cc1b2f850621b.res"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://b14wg2lb8kmut"
+path="res://.godot/imported/Run_Up.aseprite-943068985a1a94320850d7af51efb241.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Run_Base/Run_Up.aseprite"
+dest_files=["res://.godot/imported/Run_Up.aseprite-943068985a1a94320850d7af51efb241.res"]
+
+[params]
+

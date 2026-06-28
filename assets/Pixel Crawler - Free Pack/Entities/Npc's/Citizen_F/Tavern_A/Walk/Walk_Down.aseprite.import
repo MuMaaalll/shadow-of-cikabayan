@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://dgb1a2nb0dy7l"
+path="res://.godot/imported/Walk_Down.aseprite-4fe4b7ae04831b5e584796e17dcb0d1a.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Npc's/Citizen_F/Tavern_A/Walk/Walk_Down.aseprite"
+dest_files=["res://.godot/imported/Walk_Down.aseprite-4fe4b7ae04831b5e584796e17dcb0d1a.res"]
+
+[params]
+

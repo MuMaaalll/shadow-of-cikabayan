@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://bttkw41t4dchm"
+path="res://.godot/imported/Death.aseprite-89dd5afca71d79cab2b25048f49a0eca.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Mobs/Orc Crew/Orc - Shaman/Death/Death.aseprite"
+dest_files=["res://.godot/imported/Death.aseprite-89dd5afca71d79cab2b25048f49a0eca.res"]
+
+[params]
+

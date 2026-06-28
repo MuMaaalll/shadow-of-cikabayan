@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://c7rmnqljb520s"
+path="res://.godot/imported/Death.aseprite-f9c25b88d591641fac116fff1754abd2.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Npc's/Rogue/Death/Death.aseprite"
+dest_files=["res://.godot/imported/Death.aseprite-f9c25b88d591641fac116fff1754abd2.res"]
+
+[params]
+

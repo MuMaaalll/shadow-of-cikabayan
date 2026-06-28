@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://c2p21ocui8ue0"
+path="res://.godot/imported/Hit_Up.aseprite-e459eb1ed489f31c9a95c04258a6f926.res"
+
+[deps]
+
+source_file="res://assets/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Hit_Base/Hit_Up.aseprite"
+dest_files=["res://.godot/imported/Hit_Up.aseprite-e459eb1ed489f31c9a95c04258a6f926.res"]
+
+[params]
+
