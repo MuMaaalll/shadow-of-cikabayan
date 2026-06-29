@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Shadow of Cikabayan"
-run/main_scene="uid://dyn1kh81qpt5"
+run/main_scene="uid://dsxipyjsjdr22"
 config/features=PackedStringArray("4.6")
 
 [display]

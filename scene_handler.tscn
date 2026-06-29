@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dsxipyjsjdr22"]
+
+[ext_resource type="Script" uid="uid://cbcnb2ullc20n" path="res://scene_handler.gd" id="1_8qim7"]
+[ext_resource type="PackedScene" uid="uid://b10ef4abxjnt8" path="res://Main_menu.tscn" id="2_sy2fw"]
+
+[node name="SceneHandler" type="Node" unique_id=1111359582]
+script = ExtResource("1_8qim7")
+main_menu_packed = ExtResource("2_sy2fw")
