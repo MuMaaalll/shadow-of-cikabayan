@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://njqqud1lq4f5"]
+
+[ext_resource type="Texture2D" uid="uid://b3hg2t036yjpb" path="res://assets/sprites/enemies/kunti 1.png" id="1_ion1i"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ion1i"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mbhay"]
+atlas = ExtResource("1_ion1i")
+region = Rect2(0, 0, 627, 627)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jm273"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mbhay")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="Kunti" type="CharacterBody2D" unique_id=575806267]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1430710758]
+scale = Vector2(0.735, 0.88)
+shape = SubResource("CapsuleShape2D_ion1i")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=949878983]
+scale = Vector2(0.05, 0.05)
+sprite_frames = SubResource("SpriteFrames_jm273")
+animation = &"idle"
+
+[node name="RayCast2D" type="RayCast2D" parent="." unique_id=1704430104]

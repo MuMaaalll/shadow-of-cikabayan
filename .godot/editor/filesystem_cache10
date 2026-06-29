@@ -1,14 +1,17 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1780553820
+::res://::1782691394
 README.md::TextFile::-1::1780026779::0::1::::<><><>0<>0<><>::
 ::res://assets/::1780514930
 ::res://assets/fonts/::1780026435
 ::res://assets/music/::1780026415
 ::res://assets/sfx/::1780026423
 ::res://assets/sprites/::1780514930
-::res://assets/sprites/enemies/::1780514930
+::res://assets/sprites/enemies/::1782692542
+kunti 1.png::CompressedTexture2D::4366572506106792851::1782692516::1782692544::1::::<><><>0<>0<>d1cca0b2da0af1efaef402b8d7e75a92<>res://.godot/imported/kunti 1.png-c0d05c1523708554b9222ba9b31490eb.ctex::
+pocong 1.png::CompressedTexture2D::6962592195717350324::1782692520::1782692544::1::::<><><>0<>0<>8e9ca9b1a408637387f1107cbf80eeac<>res://.godot/imported/pocong 1.png-23f68cfe84816bdf40d50f9a1ea14668.ctex::
+satpam 1.png::CompressedTexture2D::3956155093235752078::1782692510::1782692544::1::::<><><>0<>0<>637c34e375e3056400f79ec4941df46d<>res://.godot/imported/satpam 1.png-a939a8f71213921264c448cb5c54edef.ctex::
 ::res://assets/sprites/environment/::1780549303
-::res://assets/sprites/environment/Assets/::1780555816
+::res://assets/sprites/environment/Assets/::1780555820
 image 1 (1).png::CompressedTexture2D::7600288152303845137::1780555802::1780555820::1::::<><><>0<>0<>9aa5f6402e4ae9cea675643ace5caf17<>res://.godot/imported/image 1 (1).png-8d82d84f22b783c9d813d6300443eb21.ctex::
 ::res://assets/sprites/environment/Assets/DarkForest/::1780551600
 back.png::CompressedTexture2D::7567217233782196298::1780549323::1780551600::1::::<><><>0<>0<>791a0b62e078b12cab9d3375b346e00c<>res://.godot/imported/back.png-a1673684f489433c53df14bfd2ef493f.ctex::
@@ -22,32 +25,32 @@ Rock.png::CompressedTexture2D::1345635206193256580::1780549332::1780551600::1:::
 ::res://assets/sprites/environment/Assets/Forest/::1780552680
 back.png::CompressedTexture2D::3494983291369582664::1780550149::1780551600::1::::<><><>0<>0<>96bc190208d233dec3fb81d4abe4ee6a<>res://.godot/imported/back.png-0eda0ccf537559747d1ba095fbd67431.ctex::
 middle.png::CompressedTexture2D::8743447598109662007::1780550144::1780551600::1::::<><><>0<>0<>2ae6f41da831d9408fcd338fbc87528b<>res://.godot/imported/middle.png-790fd4cafe81359a06960b036195e07c.ctex::
-::res://assets/sprites/player/::1780551600
-irving_sheet1.png::CompressedTexture2D::5245295560830634441::1780548998::1780551600::1::::<><><>0<>0<>b1b372c4edbdd25bfed7200350d0343e<>res://.godot/imported/irving_sheet1.png-edf119b9d0ffcd618637512fcce1ea1c.ctex::
-irving_sheet2.png::CompressedTexture2D::6360448847774872023::1780548998::1780551600::1::::<><><>0<>0<>982879d112541977453eb235f94511c0<>res://.godot/imported/irving_sheet2.png-84f943287acb179559bccaf154e34962.ctex::
-irving_sheet3.png::CompressedTexture2D::1992167958174241485::1780548998::1780551600::1::::<><><>0<>0<>1335dac8ee7b0da90fccb94778ba1bab<>res://.godot/imported/irving_sheet3.png-286eeb5a1399605de91b21329bab3628.ctex::
-irving_sheet4.png::CompressedTexture2D::1951474390570841635::1780548998::1780551600::1::::<><><>0<>0<>5289c44bb3f983b6c683321c02c6542b<>res://.godot/imported/irving_sheet4.png-1efa09fdf300472daff99d6102acd8bf.ctex::
-irving_sheet5.png::CompressedTexture2D::2166789694614995705::1780548998::1780551600::1::::<><><>0<>0<>9f695ce80f2c2ba4d78f37fafc57d445<>res://.godot/imported/irving_sheet5.png-e0573f8ca35d60da862e5d233282cd9a.ctex::
-irving_sheet6.png::CompressedTexture2D::64748091143375990::1780548998::1780551600::1::::<><><>0<>0<>2232925377173482135c6b8b3e652747<>res://.godot/imported/irving_sheet6.png-24263d9ff0c892ec2992520378508d56.ctex::
-irving_sheet7.png::CompressedTexture2D::3723793422492428085::1780548998::1780551600::1::::<><><>0<>0<>46c7806c705dcf5ad7026673ed908650<>res://.godot/imported/irving_sheet7.png-244496a54a3ca512d7db08f3300b9bb4.ctex::
-irving_sheet8.png::CompressedTexture2D::1136545810195181995::1780548998::1780551600::1::::<><><>0<>0<>2aa54b4d12630ef97d840ab02e21bc41<>res://.godot/imported/irving_sheet8.png-b6813213c665a35169a1aaf93fd15bcd.ctex::
-irving_sheet9.png::CompressedTexture2D::4374803819137663331::1780548998::1780551600::1::::<><><>0<>0<>c96fcea10c05509eff0e0a54d4a41e7e<>res://.godot/imported/irving_sheet9.png-b198e1bc99d74a15e434948c42932945.ctex::
-irving_sheet10.png::CompressedTexture2D::3345830028132104771::1780548998::1780551600::1::::<><><>0<>0<>c38795f7e2753e760eb6cbbf099b6b6b<>res://.godot/imported/irving_sheet10.png-aa28fcf81d3a5fe0ca8e6dba322805d2.ctex::
-irving_sheet11.png::CompressedTexture2D::7500448455921326016::1780548998::1780551600::1::::<><><>0<>0<>45c44f883fbbc97002ac8fb59201e12a<>res://.godot/imported/irving_sheet11.png-5f363aa22ca12f8fe173a1fd1e2ac39d.ctex::
-irving_sheet12.png::CompressedTexture2D::4461177253098377649::1780548998::1780551600::1::::<><><>0<>0<>3597f56e3963d875ce78f3c447b95a47<>res://.godot/imported/irving_sheet12.png-cf4a2ec1ffced0cdae523c40c03fd5cb.ctex::
-irving_sheet13.png::CompressedTexture2D::3007620657251276791::1780548998::1780551600::1::::<><><>0<>0<>70e842c1f38959f2930f28281ca2a5b2<>res://.godot/imported/irving_sheet13.png-f86c94a61c3c3681cf86861be4be2341.ctex::
-irving_sheet14.png::CompressedTexture2D::708572717056780294::1780548998::1780551600::1::::<><><>0<>0<>0e062912291ecd39b3ea5d72e117f212<>res://.godot/imported/irving_sheet14.png-b74ddde6ea46041f19ea24166e0ab58e.ctex::
-irving_sheet15.png::CompressedTexture2D::8487769996726270046::1780548998::1780551600::1::::<><><>0<>0<>bae57fb64be75cddd52c585833441305<>res://.godot/imported/irving_sheet15.png-b3643dea5809253158723d8a7862e5b2.ctex::
-irving_sheet16.png::CompressedTexture2D::5863146838894452197::1780548998::1780551600::1::::<><><>0<>0<>9745d3cdcf8c4fbebc25a16d5de55b58<>res://.godot/imported/irving_sheet16.png-23156795c50a8c5ff6aa0c14046e592d.ctex::
-irving_sheet17.png::CompressedTexture2D::8217008305978638851::1780548998::1780551600::1::::<><><>0<>0<>f1994f18b32dccdd8d294d63f1eb0706<>res://.godot/imported/irving_sheet17.png-146247bdbab4eb2490935b9bc91d7a08.ctex::
-irving_sheet.png::CompressedTexture2D::4486950514728926160::1780547693::1780551600::1::::<><><>0<>0<>a4742412e7275731c005291b8164258a<>res://.godot/imported/irving_sheet.png-2949c5fcae3835c501dcbdcb88373b3a.ctex::
-::res://assets/tilesets/::1780552680
-tiles.png::CompressedTexture2D::2772910572788148943::1780550139::1780552680::1::::<><><>0<>0<>2920b1cd68474d154af68e5619382be5<>res://.godot/imported/tiles.png-fd42f644bb0e0aecfa98dcd353952138.ctex::
-tileset.png::CompressedTexture2D::8372673165094912939::1780549308::1780552680::1::::<><><>0<>0<>2141fba1317637e9bb057ba85b9c5285<>res://.godot/imported/tileset.png-07d912f8b4c07111b880b883656d8231.ctex::
-::res://docs/::1780029391
+::res://assets/sprites/player/::1782678269
+east.png::CompressedTexture2D::4070741264205068172::1782677681::1782677683::1::::<><><>0<>0<>10d6199f961478cb5b9590b58cdbfd45<>res://.godot/imported/east.png-a1a14a1d086e9e28a2e121cd8c1785bc.ctex::
+irving_sheet1.png::CompressedTexture2D::4757288573377019076::1780548998::1782479543::1::::<><><>0<>0<>65a2b128ef0ef49cdf89a2541ac9b251<>res://.godot/imported/irving_sheet1.png-edf119b9d0ffcd618637512fcce1ea1c.ctex::
+irving_sheet2.png::CompressedTexture2D::156010720301051051::1780548998::1782479543::1::::<><><>0<>0<>f7fad4204c17688fa6b996330f0a51b7<>res://.godot/imported/irving_sheet2.png-84f943287acb179559bccaf154e34962.ctex::
+irving_sheet.png::CompressedTexture2D::6291327249566481373::1780547693::1782479543::1::::<><><>0<>0<>89c7e1feef704f633802b1b99089bc42<>res://.godot/imported/irving_sheet.png-2949c5fcae3835c501dcbdcb88373b3a.ctex::
+north-east.png::CompressedTexture2D::6305963247926050768::1782677682::1782677683::1::::<><><>0<>0<>3ac067174d7f7ae933102eb5b3b07b26<>res://.godot/imported/north-east.png-db9500f3d7852cc3961f07186432afeb.ctex::
+north-west.png::CompressedTexture2D::5723682069559137005::1782677682::1782677683::1::::<><><>0<>0<>dd6e3dcb53940467aa1d16ddb68ba276<>res://.godot/imported/north-west.png-6eb7dca1d3b97fcd8d33429ae300485b.ctex::
+north.png::CompressedTexture2D::1684921890819719809::1782677681::1782677683::1::::<><><>0<>0<>8059f42d26c2939d207a628eaec76dd7<>res://.godot/imported/north.png-52b40c940df65bec05b70d79e99c8715.ctex::
+south-east.png::CompressedTexture2D::7678848302014620398::1782677682::1782677683::1::::<><><>0<>0<>2634d93d40d9524ae45e8757b9ab0107<>res://.godot/imported/south-east.png-25bac452f06aa79c7d2051ed13bffe3b.ctex::
+south-west.png::CompressedTexture2D::8634844558283052871::1782677682::1782677683::1::::<><><>0<>0<>cdef3c44a89e96f5a3f563d05b25977c<>res://.godot/imported/south-west.png-330ac153f1d4a4e7c711391281d11ee7.ctex::
+south.png::CompressedTexture2D::3752162567868578978::1782677682::1782677683::1::::<><><>0<>0<>7a6a362ad4567f39970c34f9d5992075<>res://.godot/imported/south.png-f9eaca4d9e5318df666c179bbe78ee12.ctex::
+untitled.png::CompressedTexture2D::5539809307865908855::1782678154::1782678269::1::::<><><>0<>0<>cc5a8fc3241faa73fb777d29150eda04<>res://.godot/imported/untitled.png-5e1d81b90ad4cd4efe19d9d7eec3a973.ctex::
+walk_left.png::CompressedTexture2D::6104340752791905436::1782678210::1782678269::1::::<><><>0<>0<>b23c1e90d258960ec993762c9da3fcb2<>res://.godot/imported/walk_left.png-5e74ee4088eb9940d5c14d9775485b8e.ctex::
+walk_right.png::CompressedTexture2D::651924851442192766::1782678197::1782678269::1::::<><><>0<>0<>27829cfaa0a06b03836a3dee67567165<>res://.godot/imported/walk_right.png-b762af56013a4e004b500dae55ff6396.ctex::
+walk_up_0001.png::CompressedTexture2D::7226388147528590170::1782678223::1782678269::1::::<><><>0<>0<>d24a05fa479f608af5886036d3fe6db3<>res://.godot/imported/walk_up_0001.png-72a43c41668a4eac0ce708c7f5c4e06f.ctex::
+west.png::CompressedTexture2D::5703740986498747456::1782677682::1782677683::1::::<><><>0<>0<>28c10e05f777cf2b5f862f83c944dcfe<>res://.godot/imported/west.png-41d53a9baa7823a4499571a665dcc0f1.ctex::
+::res://assets/tilesets/::1782675705
+Game Boy Advance - Pokemon FireRed _ LeafGreen - Maps (Towns, Buildings, Etc.) - Celadon City.png::CompressedTexture2D::4196555842387962938::1782674490::1782674530::1::::<><><>0<>0<>3ca1571fb2537df8ea6b8c32fe8024b2<>res://.godot/imported/Game Boy Advance - Pokemon FireRed _ LeafGreen - Maps (Towns, Buildings, Etc.) - Celadon City.png-8b6ce79318fe94c097a1c561be4371e7.ctex::
+PC _ Computer - Stardew Valley - Environment - Crops.png::CompressedTexture2D::3420340238646628960::1782675704::1782675705::1::::<><><>0<>0<>2542f9e5e1078dc0663296465ba69574<>res://.godot/imported/PC _ Computer - Stardew Valley - Environment - Crops.png-c07786824e6b6884e3be7c49d76049ac.ctex::
+PC _ Computer - Stardew Valley - Tilesets - Outdoors (Spring).png::CompressedTexture2D::4703132940241471356::1782479678::1782479687::1::::<><><>0<>0<>7b65efc860097e53918a11a296b6e400<>res://.godot/imported/PC _ Computer - Stardew Valley - Tilesets - Outdoors (Spring).png-e9092de48f8f2125a1fabc07b13a9af5.ctex::
+PC _ Computer - Stardew Valley - Tilesets - Outdoors.png::CompressedTexture2D::6324380089066460232::1782672040::1782672041::1::::<><><>0<>0<>80a71c15c38ce143fad516c1a44b131e<>res://.godot/imported/PC _ Computer - Stardew Valley - Tilesets - Outdoors.png-e85291f9e583a9361d8c6a5b0f24c7ab.ctex::
+::res://docs/::1782691309
 COMBAT_LOGIC.md::TextFile::-1::1780029339::0::1::::<><><>0<>0<><>::
 FSM_ARCHITECTURE.md::TextFile::-1::1780029335::0::1::::<><><>0<>0<><>::
 GIT_WORKFLOW.md::TextFile::-1::1780029340::0::1::::<><><>0<>0<><>::
+NODE_STRUCTURE.md::TextFile::-1::1782691309::0::1::::<><><>0<>0<><>::
 PROJECT_OVERVIEW.md::TextFile::-1::1780029330::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1780029329::0::1::::<><><>0<>0<><>::
 SHADER_REFERENCE.md::TextFile::-1::1780029336::0::1::::<><><>0<>0<><>::
@@ -59,21 +62,24 @@ TASK_MELANDRI.md::TextFile::-1::1780029333::0::1::::<><><>0<>0<><>::
 combat_arena.tscn::PackedScene::-1::1780026988::0::1::::<><><>0<>0<><>::
 combat_manager.gd::GDScript::3406525742403092025::1780027017::0::1::::<>RefCounted<><>0<>0<><>::
 formula_eval.gd::GDScript::7972057186042679736::1780027029::0::1::::<>RefCounted<><>0<>0<><>::
-::res://src/core/::1780029602
+::res://src/core/::1782691259
 game_manager.gd::GDScript::5083339168652953808::1780026919::0::1::::<>RefCounted<><>0<>0<><>::
-player_stats.gd::GDScript::4621524853838366382::1780026935::0::1::::<>RefCounted<><>0<>0<><>::
+player_stats.gd::GDScript::4621524853838366382::1782691181::0::1::::<>RefCounted<><>0<>0<><>::
+save_system.gd::GDScript::7822232866674683055::1782691227::0::1::::<>Node<><>0<>0<><>::
 ::res://src/entities/::1780514930
 enemies.gd::GDScript::902019180188120399::1780026970::0::1::::<>RefCounted<><>0<>0<><>::
 players.gd::GDScript::5697600864493776969::1780026963::0::1::::<>RefCounted<><>0<>0<><>::
-::res://src/entities/enemies/::1780514930
-::res://src/entities/player/::1780553285
-irving.tscn::PackedScene::7734156596303242695::1780555610::0::1::::<><><>0<>0<><>::uid://cgy4is1ro0wmr::::res://assets/sprites/player/irving_sheet1.png<>uid://dpcm6q1qxgwed::::res://assets/sprites/player/irving_sheet17.png
-player.gd::GDScript::1255474183216063471::1780552243::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://src/entities/enemies/::1782692396
+::res://src/entities/player/::1782692190
+irving.tscn::PackedScene::7734156596303242695::1782692190::0::1::::<><><>0<>0<><>::uid://r5fqgxjbobal::::res://src/entities/player/player.gd<>uid://bx85rqbqvldeq::::res://assets/sprites/player/east.png<>uid://jj2dv0ytqsnm::::res://assets/sprites/player/walk_right.png<>uid://btpttmdtm7yr7::::res://assets/sprites/player/south.png<>uid://cni61srpdvnau::::res://assets/sprites/player/west.png<>uid://ck6r35rooesx8::::res://assets/sprites/player/untitled.png<>uid://yagogqm0b11n::::res://assets/sprites/player/north.png<>uid://cs78un85e8l2s::::res://assets/sprites/player/walk_left.png<>uid://da7rs65m4ckgg::::res://assets/sprites/player/walk_up_0001.png
+player.gd::GDScript::1255474183216063471::1782691153::0::1::::<>CharacterBody2D<><>0<>0<><>::
 ::res://src/levels/::1780514930
 hutan_cikabayan.gd::GDScript::8129602673978486597::1780027076::0::1::::<>RefCounted<><>0<>0<><>::
 laboratorium.gd::GDScript::1735425925573079973::1780027084::0::1::::<>RefCounted<><>0<>0<><>::
-::res://src/levels/kebun_cikabayan/::1780553373
-kebun_cikabayan.tscn::PackedScene::8574108510341485989::1780553878::0::1::::<><><>0<>0<><>::uid://digqoud75yf32::::res://src/entities/player/irving.tscn
+::res://src/levels/kebun_cikabayan/::1782692162
+kebun_cikabayan.tscn::PackedScene::8574108510341485989::1782691758::0::1::::<><><>0<>0<><>::uid://bwfu1kba5uuui::::res://src/levels/kebun_cikabayan/tileset.tres<>uid://digqoud75yf32::::res://src/entities/player/irving.tscn<>uid://boy3revyd1sn5::::res://assets/tilesets/PC _ Computer - Stardew Valley - Environment - Crops.png
+hutan_cikabayan.tscn::PackedScene::159786141087991961::1782692162::0::1::::<><><>0<>0<><>::uid://bwfu1kba5uuui::::res://src/levels/kebun_cikabayan/tileset.tres<>uid://digqoud75yf32::::res://src/entities/player/irving.tscn
+tileset.tres::TileSet::3942158429816174784::1782692044::0::1::::<><><>0<>0<><>::uid://b8ah6ays40eau::::res://assets/tilesets/PC _ Computer - Stardew Valley - Tilesets - Outdoors (Spring).png<>uid://cwdtu7f00ex73::::res://assets/tilesets/PC _ Computer - Stardew Valley - Tilesets - Outdoors.png<>uid://boy3revyd1sn5::::res://assets/tilesets/PC _ Computer - Stardew Valley - Environment - Crops.png
 ::res://src/levels/laboratorium/::1780514930
 ::res://src/ui/::1780029602
 HUD.gd::GDScript::8266289820423515066::1780027050::0::1::::<>RefCounted<><>0<>0<><>::

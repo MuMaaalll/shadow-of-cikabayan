@@ -1,0 +1,253 @@
+[gd_scene format=3 uid="uid://cbajlngdrbdf7"]
+
+[ext_resource type="Script" uid="uid://bose8mme1e586" path="res://src/combat/combat_manager.gd" id="1_combat"]
+[ext_resource type="Texture2D" uid="uid://cvvtigftd36qr" path="res://assets/sprites/player/irving_sheet.png" id="2_wm20q"]
+[ext_resource type="Texture2D" uid="uid://b3hg2t036yjpb" path="res://assets/sprites/enemies/kunti 1.png" id="3_enemy_sprite"]
+
+[node name="CombatArena" type="Node2D" unique_id=1481208627]
+script = ExtResource("1_combat")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1264919278]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=1514625979]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="ColorRect" parent="CanvasLayer/Control" unique_id=1039836438]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.0588235, 0.0588235, 0.0784314, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Control" unique_id=1158401004]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 40.0
+offset_top = 40.0
+offset_right = -40.0
+offset_bottom = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+
+[node name="Header" type="HBoxContainer" parent="CanvasLayer/Control/VBoxContainer" unique_id=1764623193]
+layout_mode = 2
+alignment = 1
+
+[node name="Title" type="Label" parent="CanvasLayer/Control/VBoxContainer/Header" unique_id=1035887187]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.901961, 0.901961, 0.921569, 1)
+theme_override_font_sizes/font_size = 24
+text = "BATTLE ARENA"
+horizontal_alignment = 1
+
+[node name="ArenaSplit" type="Control" parent="CanvasLayer/Control/VBoxContainer" unique_id=175448047]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="PlayerSprite" type="TextureRect" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit" unique_id=69426963]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 60.0
+offset_top = -320.0
+offset_right = 260.0
+offset_bottom = -120.0
+grow_vertical = 0
+texture = ExtResource("2_wm20q")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="EnemySprite" type="TextureRect" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit" unique_id=468971547]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -459.0
+offset_top = 89.0
+offset_right = -15.0
+offset_bottom = 557.0
+grow_horizontal = 0
+texture = ExtResource("3_enemy_sprite")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="EnemyPanel" type="PanelContainer" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit" unique_id=751810611]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -380.0
+offset_bottom = 140.0
+grow_horizontal = 0
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit/EnemyPanel" unique_id=1848382374]
+layout_mode = 2
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_top = 15
+theme_override_constants/margin_right = 15
+theme_override_constants/margin_bottom = 15
+
+[node name="VBox" type="VBoxContainer" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit/EnemyPanel/MarginContainer" unique_id=876713203]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Name" type="Label" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit/EnemyPanel/MarginContainer/VBox" unique_id=583298662]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.960784, 0.364706, 0.364706, 1)
+theme_override_font_sizes/font_size = 18
+text = "KUNTILANAK"
+
+[node name="HPLabel" type="Label" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit/EnemyPanel/MarginContainer/VBox" unique_id=505917157]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "HP:"
+
+[node name="HPBar" type="ProgressBar" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit/EnemyPanel/MarginContainer/VBox" unique_id=834339470]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 14)
+layout_mode = 2
+step = 1.0
+value = 100.0
+show_percentage = false
+
+[node name="ShieldLabel" type="Label" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit/EnemyPanel/MarginContainer/VBox" unique_id=877704539]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Contamination Shield:"
+
+[node name="ShieldBar" type="ProgressBar" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit/EnemyPanel/MarginContainer/VBox" unique_id=269777143]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 14)
+layout_mode = 2
+step = 1.0
+value = 50.0
+show_percentage = false
+
+[node name="PlayerPanel" type="PanelContainer" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit" unique_id=1865842873]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -140.0
+offset_right = 380.0
+grow_vertical = 0
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit/PlayerPanel" unique_id=1592534888]
+layout_mode = 2
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_top = 15
+theme_override_constants/margin_right = 15
+theme_override_constants/margin_bottom = 15
+
+[node name="VBox" type="VBoxContainer" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit/PlayerPanel/MarginContainer" unique_id=2039267860]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Name" type="Label" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit/PlayerPanel/MarginContainer/VBox" unique_id=440072112]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.298039, 0.686275, 0.976471, 1)
+theme_override_font_sizes/font_size = 18
+text = "IRVING"
+
+[node name="HPLabel" type="Label" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit/PlayerPanel/MarginContainer/VBox" unique_id=1216097323]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "HP:"
+
+[node name="PlayerHPBar" type="ProgressBar" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit/PlayerPanel/MarginContainer/VBox" unique_id=1970302697]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 14)
+layout_mode = 2
+step = 1.0
+value = 100.0
+show_percentage = false
+
+[node name="SanityLabel" type="Label" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit/PlayerPanel/MarginContainer/VBox" unique_id=1292882698]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Sanity (SAN):"
+
+[node name="PlayerSanityBar" type="ProgressBar" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit/PlayerPanel/MarginContainer/VBox" unique_id=459177205]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 14)
+layout_mode = 2
+step = 1.0
+value = 100.0
+show_percentage = false
+
+[node name="BattleLogPanel" type="PanelContainer" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit" unique_id=1283406346]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -40.0
+offset_right = 200.0
+offset_bottom = 40.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit/BattleLogPanel" unique_id=1592040970]
+layout_mode = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="BattleLog" type="Label" parent="CanvasLayer/Control/VBoxContainer/ArenaSplit/BattleLogPanel/MarginContainer" unique_id=1567480233]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "A Kunti appeared!"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="ControlPanel" type="PanelContainer" parent="CanvasLayer/Control/VBoxContainer" unique_id=1456708670]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/Control/VBoxContainer/ControlPanel" unique_id=1845274510]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 15
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 15
+
+[node name="VBoxContainer" type="HBoxContainer" parent="CanvasLayer/Control/VBoxContainer/ControlPanel/MarginContainer" unique_id=1428016705]
+layout_mode = 2
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="Formula1" type="Button" parent="CanvasLayer/Control/VBoxContainer/ControlPanel/MarginContainer/VBoxContainer" unique_id=2109376223]
+custom_minimum_size = Vector2(250, 50)
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "Acidic Extract (Bio-Chem)"
+
+[node name="Formula2" type="Button" parent="CanvasLayer/Control/VBoxContainer/ControlPanel/MarginContainer/VBoxContainer" unique_id=1741920880]
+custom_minimum_size = Vector2(250, 50)
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "Reflective Mirror (Optics)"
+
+[node name="RunButton" type="Button" parent="CanvasLayer/Control/VBoxContainer/ControlPanel/MarginContainer/VBoxContainer" unique_id=503402544]
+custom_minimum_size = Vector2(150, 50)
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "Run"
