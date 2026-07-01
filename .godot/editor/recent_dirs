@@ -1,9 +1,11 @@
+res://assets/sprites/
+res://assets/tilesets/
+res://src/ui/
 res://src/combat/
 res://assets/sprites/enemies/
 res://src/levels/kebun_cikabayan/
 res://assets/sprites/player/
 res://src/core/
-res://assets/tilesets/
 res://assets/sprites/environment/Assets/Forest/
 res://src/entities/player/
 res://

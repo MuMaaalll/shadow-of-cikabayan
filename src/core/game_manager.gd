@@ -24,6 +24,7 @@ func _ready() -> void:
 	current_world_scene = root.get_child(root.get_child_count() - 1)
 
 ## Initiates a battle transition when colliding with an enemy (like Kunti)
+## Initiates a battle transition when colliding with an enemy (like Kunti)
 func start_battle(enemy_data: EnemyResource) -> void:
 	if is_in_battle:
 		return
@@ -32,25 +33,24 @@ func start_battle(enemy_data: EnemyResource) -> void:
 	is_in_battle = true
 	active_enemy = enemy_data
 	
-	# Find player and switch to IN_COMBAT state
+
 	var player = get_tree().get_first_node_in_group("player")
 	if player and player.has_method("enter_combat"):
 		player.enter_combat()
 	
-	# Emit signal so combat manager or HUD can set up
 	battle_started.emit(enemy_data)
 	
-	# Option A: If we transition to a separate combat scene
-	# For simplicity/robustness, we can load and instance the combat arena, 
-	# add it to the scene tree, and hide/pause the current world scene.
 	if ResourceLoader.exists(COMBAT_ARENA_PATH):
 		var arena_scene = load(COMBAT_ARENA_PATH)
 		if arena_scene:
 			current_combat_instance = arena_scene.instantiate()
-			# Pause world processes if needed
+			
 			if current_world_scene:
 				current_world_scene.process_mode = Node.PROCESS_MODE_DISABLED
-				current_world_scene.visible = false
+				
+				for child in current_world_scene.get_children():
+					if "visible" in child:
+						child.visible = false
 			
 			get_tree().root.add_child(current_combat_instance)
 			print("[GameManager] Combat Arena instanced.")
@@ -69,10 +69,14 @@ func end_battle(victory: bool) -> void:
 		current_combat_instance.queue_free()
 		current_combat_instance = null
 	
-	# Restore world scene
+	# PERBAIKAN DI SINI: Kembalikan proses dan wujud map dunia
 	if current_world_scene and is_instance_valid(current_world_scene):
 		current_world_scene.process_mode = Node.PROCESS_MODE_INHERIT
-		current_world_scene.visible = true
+		
+		# Tampilkan kembali semua map 2D di bawah SceneHandler
+		for child in current_world_scene.get_children():
+			if "visible" in child:
+				child.visible = true
 	
 	# Return player to IDLE state
 	var player = get_tree().get_first_node_in_group("player")

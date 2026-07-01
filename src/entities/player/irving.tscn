@@ -11,7 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://da7rs65m4ckgg" path="res://assets/sprites/player/walk_up_0001.png" id="9_alaes"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_q52ci"]
-height = 29.5
+height = 27.399998
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7p01a"]
 atlas = ExtResource("2_q52ci")
@@ -193,6 +193,7 @@ position = Vector2(570, 321)
 script = ExtResource("1_script")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1396799069]
+position = Vector2(-6, 4)
 scale = Vector2(16, 20)
 shape = SubResource("CapsuleShape2D_q52ci")
 one_way_collision = true
@@ -207,7 +208,7 @@ frame_progress = 0.18598947
 [node name="FlashlightPivot" type="Node2D" parent="." unique_id=1997023949]
 
 [node name="InteractRay" type="RayCast2D" parent="." unique_id=1384991361]
-target_position = Vector2(0, 64)
+target_position = Vector2(16, 16)
 collide_with_areas = true
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1593349310]

@@ -1,12 +1,18 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1782691394
+::res://::1782874963
 README.md::TextFile::-1::1780026779::0::1::::<><><>0<>0<><>::
-::res://assets/::1780514930
+item_label.gd::GDScript::3323530866567777331::1782874963::0::1::::<>Label<><>0<>0<><>::
+::res://assets/::1782697374
+bg.png::CompressedTexture2D::2679199700138837711::1782697231::1782697374::1::::<><><>0<>0<>9dad3b8a45063fae0b77780c11a084f3<>res://.godot/imported/bg.png-23a59c2e9cba2223a50fa3fe41b70b25.ctex::
+button.png::CompressedTexture2D::674978817962008893::1782697237::1782697374::1::::<><><>0<>0<>aa0bdbd38e0a8ffe60b1ea78cb995b77<>res://.godot/imported/button.png-c79155b6e84601a7c5a042250ad77b07.ctex::
+buttonhover.png::CompressedTexture2D::5508937750149579045::1782697241::1782697374::1::::<><><>0<>0<>7c00f8223322dc0c661fb649b0b6983b<>res://.godot/imported/buttonhover.png-4913777685dbcb788d207ce8358f37a9.ctex::
+buttonpreessed.png::CompressedTexture2D::74273898058622034::1782697243::1782697374::1::::<><><>0<>0<>083a18e7d79b643123110305f44b0815<>res://.godot/imported/buttonpreessed.png-29e9f167ec8d45eb1103a986b1882e5e.ctex::
 ::res://assets/fonts/::1780026435
 ::res://assets/music/::1780026415
 ::res://assets/sfx/::1780026423
-::res://assets/sprites/::1780514930
-::res://assets/sprites/enemies/::1782692542
+::res://assets/sprites/::1782872045
+plants.tscn::PackedScene::2559623164083352431::1782872045::0::1::::<><><>0<>0<><>::uid://boy3revyd1sn5::::res://assets/tilesets/PC _ Computer - Stardew Valley - Environment - Crops.png
+::res://assets/sprites/enemies/::1782692544
 kunti 1.png::CompressedTexture2D::4366572506106792851::1782692516::1782692544::1::::<><><>0<>0<>d1cca0b2da0af1efaef402b8d7e75a92<>res://.godot/imported/kunti 1.png-c0d05c1523708554b9222ba9b31490eb.ctex::
 pocong 1.png::CompressedTexture2D::6962592195717350324::1782692520::1782692544::1::::<><><>0<>0<>8e9ca9b1a408637387f1107cbf80eeac<>res://.godot/imported/pocong 1.png-23f68cfe84816bdf40d50f9a1ea14668.ctex::
 satpam 1.png::CompressedTexture2D::3956155093235752078::1782692510::1782692544::1::::<><><>0<>0<>637c34e375e3056400f79ec4941df46d<>res://.godot/imported/satpam 1.png-a939a8f71213921264c448cb5c54edef.ctex::
@@ -58,30 +64,43 @@ TASK_HIKMAL.md::TextFile::-1::1780029332::0::1::::<><><>0<>0<><>::
 TASK_IRFAN.md::TextFile::-1::1780029334::0::1::::<><><>0<>0<><>::
 TASK_MELANDRI.md::TextFile::-1::1780029333::0::1::::<><><>0<>0<><>::
 ::res://src/::1780026445
-::res://src/combat/::1780029601
-combat_arena.tscn::PackedScene::-1::1780026988::0::1::::<><><>0<>0<><>::
-combat_manager.gd::GDScript::3406525742403092025::1780027017::0::1::::<>RefCounted<><>0<>0<><>::
-formula_eval.gd::GDScript::7972057186042679736::1780027029::0::1::::<>RefCounted<><>0<>0<><>::
+::res://src/combat/::1782703814
+combat_arena.tscn::PackedScene::4843596999923531854::1782703814::0::1::::<><><>0<>0<><>::uid://bose8mme1e586::::res://src/combat/combat_manager.gd<>uid://cvvtigftd36qr::::res://assets/sprites/player/irving_sheet.png<>uid://b3hg2t036yjpb::::res://assets/sprites/enemies/kunti 1.png
+combat_manager.gd::GDScript::3406525742403092025::1782699812::0::1::::<>Node2D<><>0<>0<><>::
+formula_eval.gd::GDScript::7972057186042679736::1782692984::0::1::::<>Node<><>0<>0<><>::
+satpam.gd::GDScript::3286937048492453083::1782703630::0::1::::<>CharacterBody2D<><>0<>0<><>::
+satpam.tscn::PackedScene::416898605274294864::1782693981::0::1::::<><><>0<>0<><>::uid://bwmnkcvc0iswk::::res://assets/sprites/enemies/satpam 1.png
 ::res://src/core/::1782691259
-game_manager.gd::GDScript::5083339168652953808::1780026919::0::1::::<>RefCounted<><>0<>0<><>::
-player_stats.gd::GDScript::4621524853838366382::1782691181::0::1::::<>RefCounted<><>0<>0<><>::
+game_manager.gd::GDScript::5083339168652953808::1782692733::0::1::::<>Node<><>0<>0<><>::
+player_stats.gd::GDScript::4621524853838366382::1782691181::0::1::::<>Node<><>0<>0<><>::
 save_system.gd::GDScript::7822232866674683055::1782691227::0::1::::<>Node<><>0<>0<><>::
 ::res://src/entities/::1780514930
-enemies.gd::GDScript::902019180188120399::1780026970::0::1::::<>RefCounted<><>0<>0<><>::
+enemies.gd::GDScript::902019180188120399::1782692877::0::1::::<>CharacterBody2D<><>0<>0<><>::
 players.gd::GDScript::5697600864493776969::1780026963::0::1::::<>RefCounted<><>0<>0<><>::
-::res://src/entities/enemies/::1782692396
-::res://src/entities/player/::1782692190
-irving.tscn::PackedScene::7734156596303242695::1782692190::0::1::::<><><>0<>0<><>::uid://r5fqgxjbobal::::res://src/entities/player/player.gd<>uid://bx85rqbqvldeq::::res://assets/sprites/player/east.png<>uid://jj2dv0ytqsnm::::res://assets/sprites/player/walk_right.png<>uid://btpttmdtm7yr7::::res://assets/sprites/player/south.png<>uid://cni61srpdvnau::::res://assets/sprites/player/west.png<>uid://ck6r35rooesx8::::res://assets/sprites/player/untitled.png<>uid://yagogqm0b11n::::res://assets/sprites/player/north.png<>uid://cs78un85e8l2s::::res://assets/sprites/player/walk_left.png<>uid://da7rs65m4ckgg::::res://assets/sprites/player/walk_up_0001.png
-player.gd::GDScript::1255474183216063471::1782691153::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://src/levels/::1780514930
+::res://src/entities/enemies/::1782692776
+enemy_resource.gd::GDScript::4174278654131318364::1782692727::0::1::::EnemyResource<>Resource<><>0<>0<><>::
+kunti.gd::GDScript::699461626307147679::1782692942::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://src/entities/player/::1782874759
+irving.tscn::PackedScene::7734156596303242695::1782874263::0::1::::<><><>0<>0<><>::uid://r5fqgxjbobal::::res://src/entities/player/player.gd<>uid://bx85rqbqvldeq::::res://assets/sprites/player/east.png<>uid://jj2dv0ytqsnm::::res://assets/sprites/player/walk_right.png<>uid://btpttmdtm7yr7::::res://assets/sprites/player/south.png<>uid://cni61srpdvnau::::res://assets/sprites/player/west.png<>uid://ck6r35rooesx8::::res://assets/sprites/player/untitled.png<>uid://yagogqm0b11n::::res://assets/sprites/player/north.png<>uid://cs78un85e8l2s::::res://assets/sprites/player/walk_left.png<>uid://da7rs65m4ckgg::::res://assets/sprites/player/walk_up_0001.png
+player.gd::GDScript::1255474183216063471::1782874759::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://src/levels/::1782694193
+scenehandler.gd::GDScript::7933890654263908157::1782875604::0::1::::<>Node<><>0<>0<><>::
+::res://src/levels/hutan_cikabayan/::1782694230
 hutan_cikabayan.gd::GDScript::8129602673978486597::1780027076::0::1::::<>RefCounted<><>0<>0<><>::
+hutan_cikabayan.tscn::PackedScene::159786141087991961::1782694393::0::1::::<><><>0<>0<><>::
+::res://src/levels/kebun_cikabayan/::1782875772
+area_2d.gd::GDScript::7783736183468720412::1782875772::0::1::::<>Area2D<><>0<>0<><>::
+hutan_cikabayan.tscn::PackedScene::771442812463348040::1782699350::0::1::::<><><>0<>0<><>::uid://bwfu1kba5uuui::::res://src/levels/kebun_cikabayan/tileset.tres<>uid://digqoud75yf32::::res://src/entities/player/irving.tscn<>uid://njqqud1lq4f5::::res://src/levels/kebun_cikabayan/kunti.tscn<>uid://j73bbujlnijv::::res://src/entities/enemies/kunti.gd<>uid://f67i2solt77i::::res://src/combat/satpam.tscn<>uid://bm3hmxe4olw2v::::res://src/combat/satpam.gd
+kebun_cikabayan.gd::GDScript::7352689794041557181::1782694276::0::1::::<>Node2D<><>0<>0<><>::
+kebun_cikabayan.tscn::PackedScene::8574108510341485989::1782875471::0::1::::<><><>0<>0<><>::uid://bwfu1kba5uuui::::res://src/levels/kebun_cikabayan/tileset.tres<>uid://digqoud75yf32::::res://src/entities/player/irving.tscn<>uid://boy3revyd1sn5::::res://assets/tilesets/PC _ Computer - Stardew Valley - Environment - Crops.png<>uid://di5q86msaw1ca::::res://src/levels/kebun_cikabayan/area_2d.gd
+kunti.tscn::PackedScene::932035467965800172::1782694045::0::1::::<><><>0<>0<><>::uid://b3hg2t036yjpb::::res://assets/sprites/enemies/kunti 1.png
+plants.gd::GDScript::716979274553120247::1782871599::0::1::::<>TileMapLayer<><>0<>0<><>::
+tileset.tres::TileSet::3942158429816174784::1782875316::0::1::::<><><>0<>0<><>::uid://b8ah6ays40eau::::res://assets/tilesets/PC _ Computer - Stardew Valley - Tilesets - Outdoors (Spring).png<>uid://cwdtu7f00ex73::::res://assets/tilesets/PC _ Computer - Stardew Valley - Tilesets - Outdoors.png<>uid://boy3revyd1sn5::::res://assets/tilesets/PC _ Computer - Stardew Valley - Environment - Crops.png
+::res://src/levels/laboratorium/::1782694193
 laboratorium.gd::GDScript::1735425925573079973::1780027084::0::1::::<>RefCounted<><>0<>0<><>::
-::res://src/levels/kebun_cikabayan/::1782692162
-kebun_cikabayan.tscn::PackedScene::8574108510341485989::1782691758::0::1::::<><><>0<>0<><>::uid://bwfu1kba5uuui::::res://src/levels/kebun_cikabayan/tileset.tres<>uid://digqoud75yf32::::res://src/entities/player/irving.tscn<>uid://boy3revyd1sn5::::res://assets/tilesets/PC _ Computer - Stardew Valley - Environment - Crops.png
-hutan_cikabayan.tscn::PackedScene::159786141087991961::1782692162::0::1::::<><><>0<>0<><>::uid://bwfu1kba5uuui::::res://src/levels/kebun_cikabayan/tileset.tres<>uid://digqoud75yf32::::res://src/entities/player/irving.tscn
-tileset.tres::TileSet::3942158429816174784::1782692044::0::1::::<><><>0<>0<><>::uid://b8ah6ays40eau::::res://assets/tilesets/PC _ Computer - Stardew Valley - Tilesets - Outdoors (Spring).png<>uid://cwdtu7f00ex73::::res://assets/tilesets/PC _ Computer - Stardew Valley - Tilesets - Outdoors.png<>uid://boy3revyd1sn5::::res://assets/tilesets/PC _ Computer - Stardew Valley - Environment - Crops.png
-::res://src/levels/laboratorium/::1780514930
-::res://src/ui/::1780029602
-HUD.gd::GDScript::8266289820423515066::1780027050::0::1::::<>RefCounted<><>0<>0<><>::
+::res://src/ui/::1782875604
+HUD.gd::GDScript::8266289820423515066::1782874612::0::1::::<>Node<><>0<>0<><>::
 lab_book.gd::GDScript::754082794446522874::1780027057::0::1::::<>RefCounted<><>0<>0<><>::
-main_menu.gd::GDScript::1393644651613794287::1780027042::0::1::::<>RefCounted<><>0<>0<><>::
+main_menu.gd::GDScript::952293375945322185::1782701067::0::1::::<>Control<><>0<>0<><>::
+main_menu.tscn::PackedScene::8745602704425843385::1782870553::0::1::::<><><>0<>0<><>::uid://ntkerqnl8a06::::res://src/ui/main_menu.gd<>uid://bef3a661x0okl::::res://assets/bg.png<>uid://ju72jydjtwc0::::res://assets/button.png<>uid://bb8jr76pv1dm::::res://assets/buttonpreessed.png<>uid://ckqtnui3217e4::::res://assets/buttonhover.png
+scenehandler.tscn::PackedScene::5555108271101840132::1782875870::0::1::::<><><>0<>0<><>::uid://dlbiaxa6slq2p::::res://src/ui/scenehandler.gd

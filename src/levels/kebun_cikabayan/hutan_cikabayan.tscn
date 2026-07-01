@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://njqqud1lq4f5" path="res://src/levels/kebun_cikabayan/kunti.tscn" id="3_jvsy3"]
 [ext_resource type="Script" uid="uid://j73bbujlnijv" path="res://src/entities/enemies/kunti.gd" id="4_qa3uc"]
 [ext_resource type="PackedScene" uid="uid://f67i2solt77i" path="res://src/combat/satpam.tscn" id="5_cpd4p"]
+[ext_resource type="Script" uid="uid://bm3hmxe4olw2v" path="res://src/combat/satpam.gd" id="6_n72e7"]
 
 [node name="hutan_cikabayan" type="Node2D" unique_id=1733284225]
 
@@ -34,8 +35,11 @@ scale = Vector2(1.5, 1.5)
 script = ExtResource("4_qa3uc")
 
 [node name="Satpam" parent="." unique_id=1603513695 instance=ExtResource("5_cpd4p")]
-position = Vector2(189, 101)
+position = Vector2(426, 210.00002)
+scale = Vector2(0.635, 0.635)
+script = ExtResource("6_n72e7")
 
 [node name="Kunti2" parent="." unique_id=760722456 instance=ExtResource("3_jvsy3")]
 position = Vector2(295.00003, 539)
 scale = Vector2(1.5, 1.5)
+script = ExtResource("4_qa3uc")
